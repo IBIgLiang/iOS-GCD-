@@ -1,0 +1,11 @@
+GCD属于系统级进程管理，它在dispatch queue执行任务时的性能非常高。GCD中FIFO队列称为dispatch queue，用来保证先进来的任务先执行
+GCD的概念：
+    1、和Operation queue一样都是基于队列的并发编程API，他们通过集中管理大家协同使用线程池。
+    2、公开的5个不同的队列：运行在主线程的Main Queue，三个不同优先级的后台队列（High Priority Queue、Default Priority Queue、Low Priority Queue），以及一个优先级更低的后台队列Background Priority Queue（用于I/O）。
+    3、可创建自定义队列：串行或并列队列，自定义队列一般放在Default Priority Queue或者Main Queue里面。
+    4、操作是在多线程还是在单线程上主要是看队列的类型和操作的方法，并行队列的异步执行才能在多线程，并行队列同步执行，就只会在这个并行队列被分配的那个线程中执行。
+
+基本概念：
+    系统标准两个队列：
+    dispatch_get_global_queue ----> 全局队列，一个并行队列
+    dispatch_get_main_queue   ----> 主线程中唯一一个队列，串行队列

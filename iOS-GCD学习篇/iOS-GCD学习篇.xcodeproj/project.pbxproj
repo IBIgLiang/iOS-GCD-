@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA9F1732018DE4000648792 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9F1722018DE4000648792 /* AppDelegate.m */; };
+		ECA9F1762018DE4000648792 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9F1752018DE4000648792 /* ViewController.m */; };
+		ECA9F1792018DE4000648792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA9F1772018DE4000648792 /* Main.storyboard */; };
+		ECA9F17B2018DE4000648792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA9F17A2018DE4000648792 /* Assets.xcassets */; };
+		ECA9F17E2018DE4000648792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA9F17C2018DE4000648792 /* LaunchScreen.storyboard */; };
+		ECA9F1812018DE4000648792 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9F1802018DE4000648792 /* main.m */; };
+		ECA9F18B2018DE4100648792 /* iOS_GCD___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9F18A2018DE4100648792 /* iOS_GCD___Tests.m */; };
+		ECA9F1962018DE4100648792 /* iOS_GCD___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9F1952018DE4100648792 /* iOS_GCD___UITests.m */; };
+		ECA9F1A42018DE6500648792 /* 简介.text in Resources */ = {isa = PBXBuildFile; fileRef = ECA9F1A32018DE6500648792 /* 简介.text */; };
+		ECAF02D72022BEC7005B51E1 /* UITableView+BlankTip.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF02D62022BEC7005B51E1 /* UITableView+BlankTip.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA9F1872018DE4100648792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA9F1662018DE4000648792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA9F16D2018DE4000648792;
+			remoteInfo = "iOS-GCD学习篇";
+		};
+		ECA9F1922018DE4100648792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA9F1662018DE4000648792 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA9F16D2018DE4000648792;
+			remoteInfo = "iOS-GCD学习篇";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA9F16E2018DE4000648792 /* iOS-GCD学习篇.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-GCD学习篇.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA9F1712018DE4000648792 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA9F1722018DE4000648792 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA9F1742018DE4000648792 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA9F1752018DE4000648792 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA9F1782018DE4000648792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA9F17A2018DE4000648792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA9F17D2018DE4000648792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECA9F17F2018DE4000648792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA9F1802018DE4000648792 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA9F1862018DE4100648792 /* iOS-GCD学习篇Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-GCD学习篇Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA9F18A2018DE4100648792 /* iOS_GCD___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_GCD___Tests.m"; sourceTree = "<group>"; };
+		ECA9F18C2018DE4100648792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA9F1912018DE4100648792 /* iOS-GCD学习篇UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-GCD学习篇UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA9F1952018DE4100648792 /* iOS_GCD___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_GCD___UITests.m"; sourceTree = "<group>"; };
+		ECA9F1972018DE4100648792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA9F1A32018DE6500648792 /* 简介.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "简介.text"; sourceTree = "<group>"; };
+		ECAF02D52022BEC7005B51E1 /* UITableView+BlankTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+BlankTip.h"; sourceTree = "<group>"; };
+		ECAF02D62022BEC7005B51E1 /* UITableView+BlankTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BlankTip.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA9F16B2018DE4000648792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA9F1832018DE4100648792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA9F18E2018DE4100648792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA9F1652018DE4000648792 = {
+			isa = PBXGroup;
+			children = (
+				ECA9F1702018DE4000648792 /* iOS-GCD学习篇 */,
+				ECA9F1892018DE4100648792 /* iOS-GCD学习篇Tests */,
+				ECA9F1942018DE4100648792 /* iOS-GCD学习篇UITests */,
+				ECA9F16F2018DE4000648792 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA9F16F2018DE4000648792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA9F16E2018DE4000648792 /* iOS-GCD学习篇.app */,
+				ECA9F1862018DE4100648792 /* iOS-GCD学习篇Tests.xctest */,
+				ECA9F1912018DE4100648792 /* iOS-GCD学习篇UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA9F1702018DE4000648792 /* iOS-GCD学习篇 */ = {
+			isa = PBXGroup;
+			children = (
+				ECA9F1712018DE4000648792 /* AppDelegate.h */,
+				ECA9F1722018DE4000648792 /* AppDelegate.m */,
+				ECA9F1742018DE4000648792 /* ViewController.h */,
+				ECA9F1752018DE4000648792 /* ViewController.m */,
+				ECA9F1772018DE4000648792 /* Main.storyboard */,
+				ECA9F17A2018DE4000648792 /* Assets.xcassets */,
+				ECA9F17C2018DE4000648792 /* LaunchScreen.storyboard */,
+				ECA9F17F2018DE4000648792 /* Info.plist */,
+				ECA9F1802018DE4000648792 /* main.m */,
+				ECA9F1A32018DE6500648792 /* 简介.text */,
+				ECAF02D52022BEC7005B51E1 /* UITableView+BlankTip.h */,
+				ECAF02D62022BEC7005B51E1 /* UITableView+BlankTip.m */,
+			);
+			path = "iOS-GCD学习篇";
+			sourceTree = "<group>";
+		};
+		ECA9F1892018DE4100648792 /* iOS-GCD学习篇Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA9F18A2018DE4100648792 /* iOS_GCD___Tests.m */,
+				ECA9F18C2018DE4100648792 /* Info.plist */,
+			);
+			path = "iOS-GCD学习篇Tests";
+			sourceTree = "<group>";
+		};
+		ECA9F1942018DE4100648792 /* iOS-GCD学习篇UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA9F1952018DE4100648792 /* iOS_GCD___UITests.m */,
+				ECA9F1972018DE4100648792 /* Info.plist */,
+			);
+			path = "iOS-GCD学习篇UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA9F16D2018DE4000648792 /* iOS-GCD学习篇 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9F19A2018DE4100648792 /* Build configuration list for PBXNativeTarget "iOS-GCD学习篇" */;
+			buildPhases = (
+				ECA9F16A2018DE4000648792 /* Sources */,
+				ECA9F16B2018DE4000648792 /* Frameworks */,
+				ECA9F16C2018DE4000648792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-GCD学习篇";
+			productName = "iOS-GCD学习篇";
+			productReference = ECA9F16E2018DE4000648792 /* iOS-GCD学习篇.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA9F1852018DE4100648792 /* iOS-GCD学习篇Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9F19D2018DE4100648792 /* Build configuration list for PBXNativeTarget "iOS-GCD学习篇Tests" */;
+			buildPhases = (
+				ECA9F1822018DE4100648792 /* Sources */,
+				ECA9F1832018DE4100648792 /* Frameworks */,
+				ECA9F1842018DE4100648792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA9F1882018DE4100648792 /* PBXTargetDependency */,
+			);
+			name = "iOS-GCD学习篇Tests";
+			productName = "iOS-GCD学习篇Tests";
+			productReference = ECA9F1862018DE4100648792 /* iOS-GCD学习篇Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA9F1902018DE4100648792 /* iOS-GCD学习篇UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9F1A02018DE4100648792 /* Build configuration list for PBXNativeTarget "iOS-GCD学习篇UITests" */;
+			buildPhases = (
+				ECA9F18D2018DE4100648792 /* Sources */,
+				ECA9F18E2018DE4100648792 /* Frameworks */,
+				ECA9F18F2018DE4100648792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA9F1932018DE4100648792 /* PBXTargetDependency */,
+			);
+			name = "iOS-GCD学习篇UITests";
+			productName = "iOS-GCD学习篇UITests";
+			productReference = ECA9F1912018DE4100648792 /* iOS-GCD学习篇UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA9F1662018DE4000648792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zhangzhiliang;
+				TargetAttributes = {
+					ECA9F16D2018DE4000648792 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					ECA9F1852018DE4100648792 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECA9F16D2018DE4000648792;
+					};
+					ECA9F1902018DE4100648792 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECA9F16D2018DE4000648792;
+					};
+				};
+			};
+			buildConfigurationList = ECA9F1692018DE4000648792 /* Build configuration list for PBXProject "iOS-GCD学习篇" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA9F1652018DE4000648792;
+			productRefGroup = ECA9F16F2018DE4000648792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA9F16D2018DE4000648792 /* iOS-GCD学习篇 */,
+				ECA9F1852018DE4100648792 /* iOS-GCD学习篇Tests */,
+				ECA9F1902018DE4100648792 /* iOS-GCD学习篇UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA9F16C2018DE4000648792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA9F17E2018DE4000648792 /* LaunchScreen.storyboard in Resources */,
+				ECA9F1A42018DE6500648792 /* 简介.text in Resources */,
+				ECA9F17B2018DE4000648792 /* Assets.xcassets in Resources */,
+				ECA9F1792018DE4000648792 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA9F1842018DE4100648792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA9F18F2018DE4100648792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA9F16A2018DE4000648792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA9F1762018DE4000648792 /* ViewController.m in Sources */,
+				ECA9F1812018DE4000648792 /* main.m in Sources */,
+				ECAF02D72022BEC7005B51E1 /* UITableView+BlankTip.m in Sources */,
+				ECA9F1732018DE4000648792 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA9F1822018DE4100648792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA9F18B2018DE4100648792 /* iOS_GCD___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA9F18D2018DE4100648792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA9F1962018DE4100648792 /* iOS_GCD___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA9F1882018DE4100648792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA9F16D2018DE4000648792 /* iOS-GCD学习篇 */;
+			targetProxy = ECA9F1872018DE4100648792 /* PBXContainerItemProxy */;
+		};
+		ECA9F1932018DE4100648792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA9F16D2018DE4000648792 /* iOS-GCD学习篇 */;
+			targetProxy = ECA9F1922018DE4100648792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA9F1772018DE4000648792 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA9F1782018DE4000648792 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECA9F17C2018DE4000648792 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA9F17D2018DE4000648792 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA9F1982018DE4100648792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECA9F1992018DE4100648792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA9F19B2018DE4100648792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-GCD学习篇/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-GCD---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA9F19C2018DE4100648792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-GCD学习篇/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-GCD---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECA9F19E2018DE4100648792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-GCD学习篇Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-GCD---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-GCD学习篇.app/iOS-GCD学习篇";
+			};
+			name = Debug;
+		};
+		ECA9F19F2018DE4100648792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-GCD学习篇Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-GCD---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-GCD学习篇.app/iOS-GCD学习篇";
+			};
+			name = Release;
+		};
+		ECA9F1A12018DE4100648792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-GCD学习篇UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-GCD---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-GCD学习篇";
+			};
+			name = Debug;
+		};
+		ECA9F1A22018DE4100648792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-GCD学习篇UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-GCD---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-GCD学习篇";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA9F1692018DE4000648792 /* Build configuration list for PBXProject "iOS-GCD学习篇" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9F1982018DE4100648792 /* Debug */,
+				ECA9F1992018DE4100648792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA9F19A2018DE4100648792 /* Build configuration list for PBXNativeTarget "iOS-GCD学习篇" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9F19B2018DE4100648792 /* Debug */,
+				ECA9F19C2018DE4100648792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA9F19D2018DE4100648792 /* Build configuration list for PBXNativeTarget "iOS-GCD学习篇Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9F19E2018DE4100648792 /* Debug */,
+				ECA9F19F2018DE4100648792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA9F1A02018DE4100648792 /* Build configuration list for PBXNativeTarget "iOS-GCD学习篇UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9F1A12018DE4100648792 /* Debug */,
+				ECA9F1A22018DE4100648792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA9F1662018DE4000648792 /* Project object */;
+}
